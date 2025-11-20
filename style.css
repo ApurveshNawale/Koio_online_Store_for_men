@@ -31,10 +31,15 @@
     text-decoration: underline;
 }
 
+#hero {
+    position: absolute;
+    bottom: 40px;
+    left: 65px;
+}
 
 .hero-section {
     height: 100vh;
-    background-image: url(./Koio/imgi_5_HERO_Mobile_BFCM_Now-Live.png);
+    background-image: url(./Koio/imgi_5_HERO_Mobile_BFCM_Levanto.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -54,7 +59,7 @@
 
 #boots {
     height: 100vh;
-    background-image: url(./Koio/imgi_8_Product-Callout_Desktop_BFCM_Boots.png);
+    background-image: url(./Koio/imgi_7_Product-Callout_Mobile_BFCM_Boots.png);
     background-size: 100% 100%;
     margin-top: 10px;
     position: relative;
@@ -69,7 +74,7 @@
 
 #bestsellers {
     height: 100vh;
-    background-image: url(./Koio/imgi_10_Product-Callout_Desktop_BFCM_Bestsellers-Monza.png);
+    background-image: url(./Koio/imgi_9_Product-Callout_Mobile_BFCM_Bestsellers-Monza.png);
     background-size: 100% 100%;
     margin-top: 10px;
     background-repeat: no-repeat;
@@ -116,7 +121,7 @@
 }
 
 #Press_Highlights {
-    
+
     height: 200px;
     background-color: #841719
 }
@@ -133,7 +138,7 @@
 
 #owl-demo .item {
     text-align: center;
-    padding: 40px 20px;
+    padding: 20px 70px;
 }
 
 #owl-demo img {
@@ -152,11 +157,25 @@
         padding-right: 50px;
     }
 
+    #hero {
+        position: absolute;
+        bottom: 60px;
+        left: 550px;
+    }
+
     .hero-section {
         height: 100vh;
-        background-image: url(./Koio/imgi_6_HERO_Desktop_BFCM_Now-Live.png);
+        background-image: url(./Koio/imgi_6_HERO_Desktop_BFCM_Levanto.png);
         background-size: 100% 100%;
         position: relative;
+    }
+
+    #boots {
+        background-image: url(./Koio/imgi_8_Product-Callout_Desktop_BFCM_Boots.png);
+    }
+
+    #bestsellers {
+        background-image: url(./Koio/imgi_10_Product-Callout_Desktop_BFCM_Bestsellers-Monza.png);
     }
 
     #bestsellers_btn,

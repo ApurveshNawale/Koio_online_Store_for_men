@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Account</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="container-fluid" id="navbar">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="../Koio/download (3).svg" class="img-fluid"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mt-2 mb-2 mb-lg-0 " id="nav_list">
+                        <li class="nav-item ">
+                            <a class="nav-link " aria-current="page" href="./Menswear/menswear.html">Men</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Women</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Story</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mt-3 mb-5 mb-lg-0" id="extra_link">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sign UP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                    <div class="d-flex align-items-center gap-5" id="right-icons">
+                        <a href="" id="Stores"><i class="fa-solid fa-location-dot"></i>Stores</a>
+                        <a href="" id="search"><img src="../Koio/download (10).svg" class="img-fluid" alt=""></i></a>
+                        <a href="" id="user"><img src="../Koio/download (9).svg" class="img-fluid" alt=""></i></a>
+                        <a href="" id="cart"><img src="../Koio/download (8).svg" class="img-fluid" alt=""></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+    </section><!------End of navbar----------- -->
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-md-6">
+                <h1 class="title mb-4">Create Account</h1>
+
+                <div class="signup-container">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="mb-2">First Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="mb-2">Last Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+
+                    <label class="mb-2 mt-3">Email Address</label>
+                    <input type="email" class="form-control">
+
+                    <label class="mb-2 mt-3">Password</label>
+                    <input type="password" class="form-control">
+
+                    <a href="./index.html"><button class="btn btn-outline-dark mt-3" id="signup_btn">SIGN UP</button></a>
+                </div>
+            </div>
+            <div class="col-md-5 signin-box">
+                <p class="fw-semibold">Already have an account?</p>
+                <p>Welcome back! Sign in to access your account</p>
+
+                <a href="./index.html"><button class="btn btn-outline-dark px-5 py-3" id="signin_btn">SIGN IN</button></a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
