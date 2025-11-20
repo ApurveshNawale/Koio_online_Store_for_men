@@ -32,11 +32,6 @@
     border-radius: 50px;
 }
 
-.signup-box {
-    margin-left: 80px;
-
-}
-
 /* registration page css */
 .form-control {
     height: 48px;
@@ -52,7 +47,7 @@
 }
 
 .signin-box {
-    margin-left: 80px;
+    margin-left: 30px;
 }
 
 #signin_btn {
@@ -61,13 +56,18 @@
     border-radius: 10px;
 }
 
-#signup_btn{
-     width: 300px;
+#signup_btn {
+    width: 300px;
     padding: 14px;
     border-radius: 10px;
 }
 
 @media only screen and (min-width:1200px) {
+
+    .signup-box {
+        margin-left: 80px;
+
+    }
 
     #extra_link {
         display: none;
@@ -76,6 +76,10 @@
     #nav_list li {
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    .signin-box {
+        margin-left: 80px;
     }
 
 }
