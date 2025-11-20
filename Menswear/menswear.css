@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #nav-logo img {
+    height: 15px;
+} */
+
+
+#right-icons a {
+    text-decoration: none;
+   color: black;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+}
+
+#right-icons a:hover{
+    text-decoration: underline;
+}
+
+
+.hero-section {
+    height: 100vh;
+    background-image: url(./Koio/HERO_Desktop_BFCM_Now-Live.webp) ;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6); /* Dark overlay */
+}
+
+.hero-section .content {
+    z-index: 2;
+}
+
+
+
+@media only screen and (min-width:1200px) {
+
+   #extra_link{
+    display: none;
+   }
+
+   .navbar-nav li{
+    padding-left: 50px;
+    padding-right: 50px;
+   }
+
+
+}
