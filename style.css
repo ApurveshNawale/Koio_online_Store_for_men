@@ -94,7 +94,8 @@
 #Responsibility,
 #Discover,
 #Shop_Essentials,
-#press1 h1 {
+#press1 h1,
+#style_text {
     font-family: "Delius", cursive;
     font-weight: 400;
     font-style: normal;
@@ -145,6 +146,8 @@
     width: 280px;
     margin: auto;
 }
+
+
 
 @media only screen and (min-width:1200px) {
 
