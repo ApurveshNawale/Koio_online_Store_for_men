@@ -8,6 +8,10 @@ I made this project only for **learning and practice**.
 - HTML  
 - CSS  
 - Bootstrap  
+## 🔗 Deployment
+You can view the live site here:  
+👉 [**https://your-deployment-link.com** ](https://apurveshnawale.github.io/Koio_online_Store_for_men/) 
+
 
 ## 📌 About This Project
 I built this clone to improve my skills in:
