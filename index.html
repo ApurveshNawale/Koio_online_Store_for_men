@@ -43,7 +43,7 @@
                             <a class="nav-link " aria-current="page" href="./Menswear/menswear.html">Men</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Women</a>
+                            <a class="nav-link" href="./women/womenwear.html">Women</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Our Story</a>
@@ -69,12 +69,38 @@
                         <a href="" id="search"><img src="./Koio/download (10).svg" class="img-fluid" alt=""></i></a>
                         <a href="./login/index.html" id="user"><img src="./Koio/download (9).svg" class="img-fluid"
                                 alt=""></i></a>
-                        <a href="" id="cart"><img src="./Koio/download (8).svg" class="img-fluid" alt=""></i></a>
+                        <!-- <a href="" id="cart"><img src="./Koio/download (8).svg" class="img-fluid" alt=""></a> -->
+                        <button class="btn " data-bs-toggle="offcanvas" data-bs-target="#cartCanvas">
+                            <img src="./Koio/download (8).svg" class="img-fluid" alt="">
+                        </button>
+
                     </div>
+
+
                 </div>
 
             </div>
         </nav>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="cartCanvas">
+            <div class="offcanvas-header" id="bag">
+                <h4 class="offcanvas-title" style="font-family: Delius, cursive;">MY BAG</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                
+            </div>
+            <div class="offcanvas-body">
+                <div class="row">
+                    <div class="col-12 text-secondary text-center" style="font-size: 13px;">
+                        Your Bag is Empty
+                    </div>
+
+                    <div class="col-12 text-center text-decoration-underline mt-1" style="font-size: 13px;">
+                        <a  href="./Menswear/menswear.html" class="text-decoration-none text-dark">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section><!------End of navbar----------- -->
 
 
@@ -88,8 +114,8 @@
             <h1 class="display-4 fw-semibold mb-4">15% Off Sitewide*</h1>
 
             <div class="d-flex justify-content-center gap-3">
-                <a href="#" class="btn btn-outline-light px-4 py-2">SHOP MEN</a>
-                <a href="#" class="btn btn-outline-light px-4 py-2">SHOP WOMEN</a>
+                <a href="./Menswear/menswear.html" class="btn btn-outline-light px-4 py-2">SHOP MEN</a>
+                <a href="./women/womenwear.html" class="btn btn-outline-light px-4 py-2">SHOP WOMEN</a>
             </div>
         </div>
     </section><!----------------hero Section end-->
@@ -170,8 +196,8 @@
                     <p class="mt-5 mb-5">The quest for the perfect sneaker ends right here, with the Capri. It's your
                         day-to-night go to.</p>
 
-                    <a href="#" class="btn btn-outline-dark px-5 py-2">SHOP MEN</a>
-                    <a href="#" class="btn btn-outline-dark px-5 py-2">SHOP WOMEN</a>
+                    <a href="./Menswear/menswear.html" class="btn btn-outline-dark px-5 py-2">SHOP MEN</a>
+                    <a href="./women/womenwear.html" class="btn btn-outline-dark px-5 py-2">SHOP WOMEN</a>
                 </div>
             </div>
 
@@ -499,14 +525,16 @@
 
                     <h6 class="text-uppercase small mt-4">Social</h6>
                     <div class="d-flex gap-2 mt-3" id="social_icon">
-                       <a href="#"class="text-secondary text-decoration-none"><i class="fa-brands fa-square-instagram"></i></a>
-                       <a href="#"class="text-secondary text-decoration-none"><i class="fa-brands fa-youtube"></i></a>
-                       <a href="#"class="text-secondary text-decoration-none"><i class="fa-brands fa-facebook"></i></a>
-                       <a href="#"class="text-secondary text-decoration-none"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#" class="text-secondary text-decoration-none"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#" class="text-secondary text-decoration-none"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="text-secondary text-decoration-none"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-secondary text-decoration-none"><i class="fa-brands fa-tiktok"></i></a>
                     </div>
                 </div>
 
-                
+
                 <div class="col-12 col-md-3 mb-4">
                     <h6 class="text-uppercase small">Subscribe to Our Newsletter</h6>
 

@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Koio Menswear</title>
+    <title>Koio Women Discounts</title>
     <link rel="icon" href="./Men's_Leather_Shoes/imgi_99_logo.svg">
-    <link rel="stylesheet" href="menswear.css">
+    <link rel="stylesheet" href="women.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -27,6 +27,14 @@
     <link rel="icon" href="./Koio/icon.png">
 </head>
 
+<style>
+    #categories2 a{
+        
+        font-weight: 500;
+        text-decoration: underline;
+    }
+</style>
+
 <body>
     <section class="container-fluid" id="navbar">
 
@@ -42,10 +50,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav nav-underline me-auto mt-2 mb-2 mb-lg-0 ">
                         <li class="nav-item ">
-                            <a class="nav-link active" aria-current="page" href="./menswear.html">Men</a>
+                            <a class="nav-link " aria-current="page" href="../Menswear/menswear.html">Men</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../women/womenwear.html">Women</a>
+                            <a class="nav-link" href="womenwear.html">Women</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Our Story</a>
@@ -85,61 +93,60 @@
 
             <p class="text-muted small mb-2">
                 <a class="text-dark text-decoration-none" href="../index.html">Home</a> /
-                <a class="text-dark text-decoration-none" href="./menswear.html">Men</a>
+                <a class="text-dark text-decoration-none" href="../Menswear/menswear.html">Men</a> /
+                <a class="text-dark text-decoration-none" href="./womenwear.html">Women</a>
             </p>
 
             <div class="d-flex justify-content-between align-items-center mt-4 mb-3" id="men_title">
-                <h2 class="m-0">Men</h2>
+                <h2 class="m-0">Deeper Discounts</h2>
 
                 <button class="btn btn-outline-dark rounded-pill px-4">
-                    <span><img src="../Koio/download (21).svg" alt=""></span> FILTER AND SORT
+                    <span><img src="./Women's/download (17).svg" alt=""></span> FILTER AND SORT
                 </button>
             </div>
 
-            <!-- <div class="d-flex flex-wrap gap-4 fs-6"> -->
-            <div id="men_items" class="owl-carousel owl-theme mt-5">
+            <div class="d-flex flex-wrap gap-4 fs-6" id="categories">
+                <!-- <div id="men_items" class="owl-carousel owl-theme mt-5"> -->
 
-                <div class="item ">
-                    <a href="../all_shoes.html" class="fw-bold text-dark text-decoration-none">
-                        All Shoes<sup>99</sup>
+                <div class="item " id="categories1">
+                    <a href="./womenwear.html" class="fw-bold text-dark ">
+                        All Shoes
                     </a>
                 </div>
-                <div class="item">
-                    <a href="../women/deeper_discount.html" class="text-danger text-decoration-none">Deeper Discounts</a>
-                </div>
-                <div class="item">
-                    <a href="../women/accessories.html  " class="text-secondary text-decoration-none">Accessories</a>
-                </div>
-                <div class="item">
-                    <a href="#" class="text-secondary text-decoration-none">Bestsellers</a>
-                </div>
-                <div class="item">
-                    <a href="#" class="text-secondary text-decoration-none">Fall Favorites</a>
-                </div>
-                <div class="item">
-                    <a href="#" class="text-secondary text-decoration-none">Modern Monochrome</a>
-                </div>
-                <div class="item">
-                    <a href="#" class="text-secondary text-decoration-none">New Arrivals</a>
-                </div>
-                <div class="item">
-                    <a href="#" class="text-secondary text-decoration-none">Sneakers</a>
-                </div>
-                <div class="item">
-                    <a href="#" class="text-secondary text-decoration-none">Wide Styles</a>
-                </div>
-                <div class="item">
-                    <a href="#" class="text-secondary text-decoration-none">Loafers</a>
-                </div>
-                <div class="item">
-                    <a href="#" class="text-secondary text-decoration-none">Boots</a>
-                </div>
-                
 
+                <div class="item" id="categories2">
+                    <a href="./deeper_discount.html" class="text-danger nav-link active" data-aos="flip-up">Deeper Discounts<sup>13</sup></a>
+                </div>
+                <div class="item" id="categories3">
+                    <a href="./accessories.html" class="text-secondary ">Accessories</a>
+                </div>
+
+
+                <!-- <nav class="navbar navbar-expand-lg   ">
+                <div class="collapse navbar-collapse" id="navcontent">
+                    <ul class="navbar-nav d-flex flex-wrap  ">
+                        <li class="nav-item ">
+                             <div class="item " id="categories1"> -->
+                <!-- <a href="./" class="fw-bold text-dark text-d text-decoration-none">
+                                All Shoes<sup>15</sup>
+                            </a>
+                          </div> -->
+                <!-- </li> -->
+                <!-- <li class="nav-item">
+                            <a href="./deeper_discount.html" class="text-danger nav-link text-decoration-underline active ">Deeper Discounts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="text-secondary text-decoration-none ">Accessories</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav> --> 
             </div>
-            <!-- </div> -->
 
         </div>
+        </div>
+
+        <!-- </div> -->
 
     </section><!-- HERO SECTION -->
 
@@ -150,38 +157,15 @@
             <!-- PRODUCT 1 -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="text-center">
-                    <img src="./Men's_Leather_Shoes/imgi_6_SPOTLIGHT_BFCM_29.png" class="img-fluid mb-3" alt="Product">
+                    <img src="./Women's/Jesi-Crema-02.webp" class="img-fluid mb-3" alt="Product">
                 </div>
             </div>
 
             <!-- PRODUCT 2 -->
             <div class="col-12 col-sm-6 col-lg-3" style="position: relative;">
                 <div class="text-center">
-                    <span class="text-danger " style="position:absolute; top:10px; left:25px; z-index: 1;">
-                        20% Off
-                    </span>
-                    <img src="./Men's_Leather_Shoes/imgi_75_Capri-distressed-V2-jet-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
 
-                    <p class="fw-semibold m-0">
-                        Capri Distressed Leather Sneaker
-                    </p>
-                    <p class="small  m-0">in Jet</p>
-                    <div class="row">
-                        <div class="col-6">
-                            <p class="mt-2">
-                                <span class="text-danger fw-semibold">Rs. 19,180</span>
-                                <span class="text-muted text-decoration-line-through">Rs. 27,400</span>
-                            </p>
-
-                        </div>
-                        <div class="col-6">
-                            <button class="btn btn-outline-dark btn-sm mt-2">
-                                ADD TO CART
-                            </button>
-                        </div>
-
-                    </div>
+                    <img src="./Women's/discount.png" class="img-fluid mb-3" alt="Product">
                 </div>
             </div>
 
@@ -191,8 +175,7 @@
                     <span class="text-danger" style="position:absolute; top:10px; left:25px; z-index: 1;">
                         15% Off
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_77_Capri-distressed-V2-fjord-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
+                    <img src="./Women's/imgi_42_Capri-V2-limestone-1-min_640x.jpg" class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Capri Distressed Leather & Suede Sneaker
                     </p>
@@ -220,8 +203,8 @@
                     <span class="text-danger" style="position:absolute; top:10px; left:25px; z-index: 1;">
                         15% Off
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_79_Capri-distressed-V2-plum-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
+                    <img src="./Women's/imgi_44_Capri-V2-LaMarzocco_Logo_631f2669-d486-472e-98d4-93a3627f1baf_640x.jpg"
+                        class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Capri Distressed Leather & Suede Sneaker
                     </p>
@@ -258,7 +241,7 @@
                         15% off
 
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_81_Capri-V2-distressed-atmosphere-1_640x.jpg"
+                    <img src="./Women's/imgi_46_mello-summit-product-image-1_e598d541-609f-4a20-990b-8b73c0499ecc_640x.jpg"
                         class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Capri Distressed Leather & Suede Sneaker
@@ -289,8 +272,8 @@
                         20% off
 
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_83_Capri-V2-distressed-grey-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
+                    <img src="./Women's/imgi_48_Capri-V2-white-light-gum-1-min_7adb32cb-c35d-44ba-b920-3175c61cfd6_640x.jpg"
+                        class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Capri Distressed Suede Sneaker
                     </p>
@@ -320,8 +303,8 @@
                         20% off
 
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_85_Primo-V2-castagna-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
+                    <img src="./Women's/imgi_50_Capri-V2-avorio-1-min_24dd192f-f8ec-4ddf-86b1-cc246882df8e_640x.jpg"
+                        class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Primo Leather Sneaker
                     </p>
@@ -350,8 +333,8 @@
                         15% off
 
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_87_Primo-V2-cabernet-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
+                    <img src="./Women's/imgi_52_Capri-V2-sandstone-1-min_a797c9e0-94d1-411e-b580-3423a3f78f2e_640x.jpg"
+                        class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Primo Leather Sneaker
                     </p>
@@ -386,8 +369,7 @@
                         15% off
 
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_89_Primo-V2-space-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
+                    <img src="./Women's/imgi_54_Capri-V3-moonlight-1_640x.jpg" class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Primo Leather Sneaker
                     </p>
@@ -417,8 +399,8 @@
                         15% off
 
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_91_Primo-V2-triple-white-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
+                    <img src="./Women's/imgi_56_Vegan-01-V2-triple-white-1_b84309fc-91ed-4257-867c-2e6482683513_640x.jpg"
+                        class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Portofino Leather Sneaker
                     </p>
@@ -448,8 +430,8 @@
                         20% off
 
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_93_Primo-V2-nero-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
+                    <img src="./Women's/imgi_58_pbd-wind-1_eb5e1be1-3723-4f3b-9093-9085386fae4c_640x.jpg"
+                        class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Primo Leather Sneaker
                     </p>
@@ -478,8 +460,8 @@
                         15% off
 
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_95_Portofino-V2-carbon-1_640x.png" class="img-fluid mb-3"
-                        alt="Product">
+                    <img src="./Women's/imgi_60_pbd-ocean-1_093de708-c90d-4c61-b6f4-b716f3896da2_640x.jpg"
+                        class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Portofino Leather Sneaker
                     </p>
@@ -515,7 +497,7 @@
                         15% off
 
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_97_Portofino-V2-shadow-1_155e582d-580c-4c6b-9090-c2c3f986e596_640x.png"
+                    <img src="./Women's/imgi_62_Vegan-01-V2-iceberg-1_35525707-58d8-4c88-939e-ec347f4d9fa1_640x.jpg"
                         class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Portofino Leather Sneaker
@@ -546,7 +528,7 @@
                         15% off
 
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_99_Portofino-white-1_8d4b2d4a-72bf-4ad3-b89a-2cad6cfb8a3e_640x.png"
+                    <img src="./Women's/imgi_64_Capri-V2-onyx-1-min_63ed9609-a177-4748-a048-6366cf00fb06_640x.jpg"
                         class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Portofino Leather Sneaker
@@ -577,8 +559,7 @@
                         25% off
 
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_101_Portofino-V2-mineral-1_640x.png" class="img-fluid mb-3"
-                        alt="Product">
+                    <img src="./Women's/imgi_66_Capri-V2-nero-1-min_640x.jpg" class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Portofino Leather Sneaker
                     </p>
@@ -607,7 +588,7 @@
                         20% off
 
                     </span>
-                    <img src="./Men's_Leather_Shoes/imgi_103_Portofino-V2-antique-white-1_4545b7d1-c1c9-4421-9634-918c3af59951_640x.png"
+                    <img src="./Women's/imgi_68_Capri-V2-pebble-1-min_09243dcf-3fe4-4a35-a586-0813c07cb3bd_640x.jpg"
                         class="img-fluid mb-3" alt="Product">
                     <p class="fw-semibold m-0">
                         Portofino Leather Sneaker
@@ -633,220 +614,6 @@
         <!-- </div> -->
     </section>
 
-    <section class="container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
-        <div class="row g-4">
-
-            <!-- PRODUCT 1 -->
-            <div class="col-12 col-sm-6 col-lg-3" style="position: relative;">
-                <div class="text-center">
-                    <span class="text-danger " style="position: absolute;top: 10px; left: 15px;">
-                        20% off
-
-                    </span>
-                    <img src="./Men's_Leather_Shoes/imgi_105_Monza-V2-galaxy-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
-                    <p class="fw-semibold m-0">
-                        Monza Suede Sneaker
-                    </p>
-                    <p class="small  m-0">in Galaxy</p>
-                    <div class="row">
-                        <div class="col-6">
-                            <p class="mt-2">
-                                <span class="text-danger fw-semibold">Rs. 19,180</span>
-                                <span class="text-muted text-decoration-line-through">Rs. 27,400</span>
-                            </p>
-
-                        </div>
-                        <div class="col-6">
-                            <button class="btn btn-outline-dark btn-sm mt-2">
-                                ADD TO CART
-                            </button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- PRODUCT 2 -->
-            <div class="col-12 col-sm-6 col-lg-3" style="position: relative;">
-                <div class="text-center">
-                    <span class="text-danger" style="position: absolute;top: 10px; left: 15px;">
-                        15% off
-
-                    </span>
-                    <img src="./Men's_Leather_Shoes/imgi_107_Monza-V2-lion-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
-                    <p class="fw-semibold m-0">
-                        Monza Suede Sneaker
-                    </p>
-                    <p class="small  m-0">in Lion</p>
-                    <div class="row">
-                        <div class="col-6">
-                            <p class="mt-2">
-                                <span class="text-danger fw-semibold">Rs. 19,180</span>
-                                <span class="text-muted text-decoration-line-through">Rs. 27,400</span>
-                            </p>
-
-                        </div>
-                        <div class="col-6">
-                            <button class="btn btn-outline-dark btn-sm mt-2">
-                                ADD TO CART
-                            </button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- PRODUCT 3 -->
-            <div class="col-12 col-sm-6 col-lg-3" style="position: relative;">
-                <div class="text-center">
-                    <span class="text-danger " style="position: absolute;top: 10px; left: 15px;">
-                        15% off
-
-                    </span>
-                    <img src="./Men's_Leather_Shoes/imgi_109_Monza-V2-bone-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
-                    <p class="fw-semibold m-0">
-                        Monza Leather & Suede Sneaker
-                    </p>
-                    <p class="small  m-0">in Bone</p>
-                    <div class="row">
-                        <div class="col-6">
-                            <p class="mt-2">
-                                <span class="text-danger fw-semibold">Rs. 23,290</span>
-                                <span class="text-muted text-decoration-line-through">Rs. 27,400</span>
-                            </p>
-                        </div>
-                        <div class="col-6">
-                            <button class="btn btn-outline-dark btn-sm mt-2">
-                                ADD TO CART
-                            </button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- PRODUCT 4 -->
-            <div class="col-12 col-sm-6 col-lg-3" style="position: relative;">
-                <div class="text-center">
-                    <span class="text-danger " style="position: absolute;top: 10px; left: 15px;">
-                        15% off
-
-                    </span>
-                    <img src="./Men's_Leather_Shoes/imgi_111_Monza-V2-tabacco-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
-                    <p class="fw-semibold m-0">
-                        Monza Leather
-                    </p>
-                    <p class="small  m-0">in Tobacco</p>
-                    <div class="row">
-                        <div class="col-6">
-                            <p class="mt-2">
-                                <span class="text-danger fw-semibold">Rs. 23,290</span>
-                                <span class="text-muted text-decoration-line-through">Rs. 27,400</span>
-                            </p>
-                        </div>
-                        <div class="col-6">
-                            <button class="btn btn-outline-dark btn-sm mt-2">
-                                ADD TO CART
-                            </button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- </div> -->
-    </section>
-
-
-    <section class="container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
-        <div class="row ">
-
-            <!-- PRODUCT 1 -->
-            <div class="col-12 col-sm-6 col-lg-3" style="position: relative;">
-                <div class="text-center">
-                    <span class="text-danger " style="position: absolute;top: 10px; left: 15px;">
-                        20% off
-
-                    </span>
-                    <img src="./Men's_Leather_Shoes/imgi_113_Monza-V2-horizon-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
-                    <p class="fw-semibold m-0">
-                        Monza
-                    </p>
-                    <p class="small  m-0">in Horizon</p>
-                    <div class="row">
-                        <div class="col-6">
-                            <p class="mt-2">
-                                <span class="text-danger fw-semibold">Rs. 23,280</span>
-                                <span class="text-muted text-decoration-line-through">Rs. 27,400</span>
-                            </p>
-
-                        </div>
-                        <div class="col-6">
-                            <button class="btn btn-outline-dark btn-sm mt-2">
-                                ADD TO CART
-                            </button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- PRODUCT 2 -->
-            <div class="col-12 col-sm-6 col-lg-3" style="position: relative;">
-                <div class="text-center">
-                    <span class="text-danger " style="position: absolute;top: 10px; left: 15px;">
-                        25% off
-
-                    </span>
-                    <img src="./Men's_Leather_Shoes/imgi_115_Monza-V2-track-1_640x.jpg" class="img-fluid mb-3"
-                        alt="Product">
-                    <p class="fw-semibold m-0">
-                        Monza Suede Sneaker
-                    </p>
-                    <p class="small  m-0">in Track</p>
-                    <div class="row">
-                        <div class="col-6">
-                            <p class="mt-2">
-                                <span class="text-danger fw-semibold">Rs. 19,180</span>
-                                <span class="text-muted text-decoration-line-through">Rs. 27,400</span>
-                            </p>
-
-                        </div>
-                        <div class="col-6">
-                            <button class="btn btn-outline-dark btn-sm mt-2">
-                                ADD TO CART
-                            </button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- PRODUCT 3 -->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="text-center">
-                    <img src="./Men's_Leather_Shoes/banner.png" class="img-fluid mb-3" alt="Product">
-                </div>
-            </div>
-
-            <!-- PRODUCT 4 -->
-            <div class="col-12 col-sm-6 col-lg-3 ">
-                <div class="text-center">
-                    <span class="text-danger fw-semibold" style="position: absolute;top: 10px; left: 15px;">
-                        20% off
-                    </span>
-                    <img src="./Men's_Leather_Shoes/SPOTLIGHT_Monza_Horizon_8e040a71-c82f-4ce9-af5d-68834f1a15f0.webp"
-                        class="img-fluid mb-3" alt="Product">
-                </div>
-            </div>
-        </div>
-        <!-- </div> -->
-    </section>
 
 
 
@@ -953,10 +720,10 @@
     <script>
         $(document).ready(function () {
 
-             $("#men_items").owlCarousel({
+            $("#men_items").owlCarousel({
                 loop: true,
                 margin: 20,
-                
+
 
                 responsive: {
                     0: {
