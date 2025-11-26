@@ -48,7 +48,7 @@
                             <a class="nav-link" href="../women/womenwear.html">Women</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Story</a>
+                            <a class="nav-link" href="../our_story/story.html">Our Story</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav me-auto mt-3 mb-5 mb-lg-0" id="extra_link">
@@ -67,20 +67,40 @@
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form> -->
                     <div class="d-flex align-items-center gap-5" id="right-icons">
-                        <a href="" id="Stores"><i class="fa-solid fa-location-dot"></i>Stores</a>
+                        <a href="../stores/stores.html" id="Stores"><i class="fa-solid fa-location-dot"></i>Stores</a>
                         <a href="" id="search"><img src="../Koio/download (10).svg" class="img-fluid" alt=""></i></a>
                         <a href="../login/index.html" id="user"><img src="../Koio/download (9).svg" class="img-fluid"
                                 alt=""></i></a>
-                        <a href="" id="cart"><img src="../Koio/download (8).svg" class="img-fluid" alt=""></i></a>
+                        <!-- <a href="" id="cart"><img src="../Koio/download (8).svg" class="img-fluid" alt=""></i></a> -->
+                        <button class="btn " data-bs-toggle="offcanvas" data-bs-target="#cartCanvas">
+                            <img src="../Koio/download (8).svg" class="img-fluid" alt="">
+                        </button>
                     </div>
                 </div>
 
             </div>
         </nav>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="cartCanvas">
+            <div class="offcanvas-header" id="bag">
+                <h4 class="offcanvas-title" style="font-family: Delius, cursive;">MY BAG</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
 
+            </div>
+            <div class="offcanvas-body">
+                <div class="row">
+                    <div class="col-12 text-secondary text-center" style="font-size: 13px;">
+                        Your Bag is Empty
+                    </div>
+
+                    <div class="col-12 text-center text-decoration-underline mt-1" style="font-size: 13px;">
+                        <a href="./Menswear/menswear.html" class="text-decoration-none text-dark">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section><!------End of navbar----------- -->
 
-    <section class="container-fluid">
+    <section class="container-fluid" id="hero">
         <div class="container py-4">
 
             <p class="text-muted small mb-2">
@@ -105,7 +125,8 @@
                     </a>
                 </div>
                 <div class="item">
-                    <a href="../women/deeper_discount.html" class="text-danger text-decoration-none">Deeper Discounts</a>
+                    <a href="../women/deeper_discount.html" class="text-danger text-decoration-none">Deeper
+                        Discounts</a>
                 </div>
                 <div class="item">
                     <a href="../women/accessories.html  " class="text-secondary text-decoration-none">Accessories</a>
@@ -134,7 +155,7 @@
                 <div class="item">
                     <a href="#" class="text-secondary text-decoration-none">Boots</a>
                 </div>
-                
+
 
             </div>
             <!-- </div> -->
@@ -953,10 +974,10 @@
     <script>
         $(document).ready(function () {
 
-             $("#men_items").owlCarousel({
+            $("#men_items").owlCarousel({
                 loop: true,
                 margin: 20,
-                
+
 
                 responsive: {
                     0: {

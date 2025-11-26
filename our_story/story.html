@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Koio Menswear</title>
+    <link rel="icon" href="./Men's_Leather_Shoes/imgi_99_logo.svg">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./Koio/icon.png">
+</head>
+
+<style>
+    #vision_koio h6,
+    h2,
+    p,
+    #founders_koio h1 {
+        font-family: "Delius", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    #owl-demo .item {
+        text-align: center;
+        padding: 20px 50px;
+    }
+
+    #owl-demo img {
+        width: 280px;
+        margin: auto;
+    }
+
+    @media only screen and (min-width:1200px) {
+
+        #owl-demo img {
+            width: 350px;
+            margin: auto;
+        }
+    }
+</style>
+
+<body>
+    <section class="container-fluid" id="navbar">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../Koio/download (3).svg" class="img-fluid"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-underline me-auto mt-2 mb-2 mb-lg-0 ">
+                        <li class="nav-item ">
+                            <a class="nav-link " aria-current="page" href="../Menswear/menswear.html">Men</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="../women/womenwear.html">Women</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./story.html">Our Story</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mt-3 mb-5 mb-lg-0" id="extra_link">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="../login/index.html">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../login/registration.html">Sign UP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                    <div class="d-flex align-items-center gap-5" id="right-icons">
+                        <a href="../stores/stores.html" id="Stores"><i class="fa-solid fa-location-dot"></i>Stores</a>
+                        <a href="" id="search"><img src="../Koio/download (10).svg" class="img-fluid" alt=""></i></a>
+                        <a href="../login/index.html" id="user"><img src="../Koio/download (9).svg" class="img-fluid"
+                                alt=""></i></a>
+                        <!-- <a href="" id="cart"><img src="../Koio/download (8).svg" class="img-fluid" alt=""></i></a> -->
+                        <button class="btn " data-bs-toggle="offcanvas" data-bs-target="#cartCanvas">
+                            <img src="../Koio/download (8).svg" class="img-fluid" alt="">
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="cartCanvas">
+            <div class="offcanvas-header" id="bag">
+                <h4 class="offcanvas-title" style="font-family: Delius, cursive;">MY BAG</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+
+            </div>
+            <div class="offcanvas-body">
+                <div class="row">
+                    <div class="col-12 text-secondary text-center" style="font-size: 13px;">
+                        Your Bag is Empty
+                    </div>
+
+                    <div class="col-12 text-center text-decoration-underline mt-1" style="font-size: 13px;">
+                        <a href="./Menswear/menswear.html" class="text-decoration-none text-dark">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid">
+
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- LEFT TEXT -->
+                <div class="col-md-6" id="vision_koio">
+                    <h6 class="text-uppercase mt-5 mb-5">Our Vision</h6>
+                    <h2 class=" mb-4">About Koio</h2>
+                    <p>
+                        Koio brings together modern design, sustainable Italian craftsmanship,
+                        and comfort to create luxurious footwear for everyday wear. Every pair
+                        is handcrafted using locally sourced materials and checked by 42
+                        craftspeople before completion.
+                    </p>
+                </div>
+
+                <!-- RIGHT VIDEO -->
+                <div class="col-md-6">
+                    <video class="about-video rounded w-100" autoplay loop muted playsinline>
+                        <source src="./img/about.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+            </div>
+        </div>
+
+    </section> <!------------- About Section-->
+
+    <section class="container-fluid">
+
+        <div class="container" id="founders_koio">
+            <h1 class="mt-5">Founders of Koio</h1>
+            <div class="row ">
+
+                <!-- LEFT TEXT -->
+                <div class="col-md-6">
+                    <img src="./img/imgi_46_founders_koio.jpg" class="img-fluid" alt="founder_img">
+                </div>
+
+                <!-- RIGHT VIDEO -->
+                <div class="col-md-6">
+                    <img src="./img/imgi_47_factory_large_4a4b8116-8013-411e-a28c-8a80cd5853fe.jpg" class="img-fluid"
+                        alt="factory">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+      
+        <section class="container-fluid px-0">
+            <div class="container">
+                <div class=" text-center mt-5 mb-5" id="Shop_Essentials">
+                    <h1>Our Founder's Favorites</h1>
+                </div>
+
+                <div class="owl-carousel owl-theme px-0" id="owl-demo">
+                    <div class="item">
+                        <!-- <div class="card-group"> -->
+                        <div class="card border-0 text-center" style="width: 18rem; position: relative;">
+                            <span class="text-danger fw-semibold" style="position:absolute; top:10px; left:10px;">
+                                15% Off
+                            </span>
+                            <a href=""><img src="./img/imgi_33_Capri-V2-triple-white-1-min_640x.jpg"
+                                    class="card-img-top" alt="Capri-tundra"></a>
+                            <div class="card-body">
+                                <h6 class="text-muted">FW25 CAPRIS</h6>
+                                <h1>
+                                    Capri Leather Sneaker
+                                </h1>
+                                <p>
+                                    <span class="me-2" style="font-family: Delius;">Tundra</span>
+                                    <span class="text-danger fw-bold ">Rs. 23,035</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">Rs. 27,100</span>
+                                </p>
+                                <a href="#" class="btn btn-outline-dark px-5 py-2">SHOP NOW</a>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+
+                    <div class="item position: relative;">
+                        <!-- <div class="card-group"> -->
+                        <div class="card border-0 text-center" style="width: 18rem; ">
+                            <span class="text-danger fw-semibold" style="position:absolute; top:10px; left:10px;">
+                                15% Off
+                            </span>
+                            <a href=""><img src="./img/imgi_35_Capri-V2-onyx-1-min_640x.jpg" class="card-img-top"
+                                    alt="..."></a>
+                            <div class="card-body">
+                                <h6 class="text-muted">FALL GO TO</h6>
+                                <h1>
+                                    Capri Mid Leather Sneaker
+                                </h1>
+                                <p>
+                                    <span class="me-2" style="font-family: Delius;">Triple White</span>
+                                    <span class="text-danger fw-bold ">Rs. 23,035</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">Rs. 30,100</span>
+                                </p>
+                                <a href="#" class="btn btn-outline-dark px-5 py-2">SHOP NOW</a>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+
+                    <div class="item">
+                        <div class="card border-0 text-center" style="width: 18rem; ">
+                            <span class="text-danger fw-semibold" style="position:absolute; top:10px; left:10px;">
+                                15% Off
+                            </span>
+                            <a href=""><img src="./img/imgi_37_mello-summit-product-image-1_640x.jpg"
+                                    class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <h6 class="text-muted">VINTAGE TOUCH</h6>
+                                <h1>
+                                    Capri Distressed Leather & Suede Sneaker
+                                </h1>
+                                <p>
+                                    <span class="me-2" style="font-family: Delius;">Plum</span>
+                                    <span class="text-danger fw-bold ">Rs. 23,035</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">Rs. 27,100</span>
+                                </p>
+                                <a href="#" class="btn btn-outline-dark px-5 py-2">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card border-0 text-center" style="width: 18rem;">
+                            <span class="text-danger fw-semibold" style="position:absolute; top:10px; left:10px;">
+                                15% Off
+                            </span>
+                            <a href=""><img src="./img/imgi_39_Trento-V2-cardamom-1_640x.png" class="card-img-top"
+                                    alt="..."></a>
+                            <div class="card-body">
+                                <h6 class="text-muted">OURTSIDE READY</h6>
+                                <h1>
+                                    Carrara Suede Sneaker
+                                </h1>
+                                <p>
+                                    <span class="me-2" style="font-family: Delius;">Graphite</span>
+                                    <span class="text-danger fw-bold ">Rs. 23,035</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">Rs. 27,100</span>
+                                </p>
+                                <a href="#" class="btn btn-outline-dark px-5 py-2">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 text-center" style="width: 18rem;">
+                            <span class="text-danger fw-semibold" style="position:absolute; top:10px; left:10px;">
+                                15% Off
+                            </span>
+                            <a href=""><img src="./img/imgi_41_Portofino-V2-mineral-1_640x.png" class="card-img-top"
+                                    alt="..."></a>
+                            <div class="card-body">
+                                <h6 class="text-muted">DATE NIGHT READY</h6>
+                                <h1>
+                                    Trento Leather Boot
+                                </h1>
+                                <p>
+                                    <span class="me-2" style="font-family: Delius;">Brandy</span>
+                                    <span class="text-danger fw-bold ">Rs. 31,260</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">Rs. 37,200</span>
+                                </p>
+                                <a href="#" class="btn btn-outline-dark px-5 py-2">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 text-center" style="width: 18rem; ">
+                            <span class="text-danger fw-semibold" style="position:absolute; top:10px; left:10px;">
+                                15% Off
+                            </span>
+                            <a href=""><img
+                                    src="../Koio/Leather_Sneakers/imgi_28_Milo-chocolate-1_6fda0bc7-da69-44f5-85f6-0aded5b7ef9b.png"
+                                    class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <h6 class="text-muted">WORKBOOT REDEFINED</h6>
+                                <h1>
+                                    Milo Leather Boot
+                                </h1>
+                                <p>
+                                    <span class="me-2" style="font-family: Delius;">Chocoloate</span>
+                                    <span class="text-danger fw-bold ">Rs. 32,240</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">Rs. 40,300</span>
+                                </p>
+                                <a href="#" class="btn btn-outline-dark px-5 py-2">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 text-center" style="width: 18rem; position: relative;">
+                            <span class="text-danger fw-semibold" style="position:absolute; top:10px; left:10px;">
+                                15% Off
+                            </span>
+                            <a href=""><img src="../Koio/Leather_Sneakers/imgi_29_Bergamo-anchor-1.png"
+                                    class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <h6 class="text-muted">CLASSIC LACE-UP BOOT</h6>
+                                <h1>
+                                    Bergamo Leather Boot
+                                </h1>
+                                <p>
+                                    <span class="me-2" style="font-family: Delius;">Anchor</span>
+                                    <span class="text-danger fw-bold ">Rs. 34,255</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">Rs. 40,300</span>
+                                </p>
+                                <a href="#" class="btn btn-outline-dark px-5 py-2">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section><!-----------------End of Shop_Essentials-->
+    </section>
+
+
+
+
+
+
+
+    <footer class="bg-light pt-5 pb-3" style="color: rgb(102, 102, 102);">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-6 col-md-3 mb-4">
+                    <h6 class="text-uppercase small">About</h6>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="#" class="text-secondary text-decoration-none">Reviews</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Our Vision</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Give 30, Get 30</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Affiliates</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <h6 class="text-uppercase small">Support</h6>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="#" class="text-secondary text-decoration-none">Contact Us</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">FAQ</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Exchanges & Returns</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Gift Cards</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Care Guide</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Resources</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <h6 class="text-uppercase small">Visit</h6>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="#" class="text-secondary text-decoration-none">New York City</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Stockists</a></li>
+                    </ul>
+
+                    <h6 class="text-uppercase small mt-4">Social</h6>
+                    <div class="d-flex gap-2 mt-3" id="social_icon">
+                        <a href="#" class="text-secondary text-decoration-none"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#" class="text-secondary text-decoration-none"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="text-secondary text-decoration-none"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-secondary text-decoration-none"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-3 mb-4">
+                    <h6 class="text-uppercase small">Subscribe to Our Newsletter</h6>
+
+                    <p class="mt-3 mb-1 small">Interested In</p>
+                    <div class="d-flex gap-3 mb-3 small">
+                        <label><input type="radio" name="gen"> Men's</label>
+                        <label><input type="radio" name="gen"> Women's</label>
+                        <label><input type="radio" name="gen"> Both</label>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Your email here">
+                        <button class="btn btn-outline-secondary">Sign Up</button>
+                    </div>
+
+                    <select class="form-select">
+                        <option>India (INR)</option>
+                        <option>USA (USD)</option>
+                        <option>UK (GBP)</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="row mt-4 pt-3 border-top">
+                <div class="col-12 d-flex flex-wrap gap-3 small">
+                    <span>© Koio 2025</span>
+                    <a href="#" class="text-secondary text-decoration-none">Privacy Policy</a>
+                    <a href="#" class="text-secondary text-decoration-none">Terms & Conditions</a>
+                    <a href="#" class="text-secondary text-decoration-none">Make a Data Request</a>
+                    <a href="#" class="text-secondary text-decoration-none">Accessibility</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+            $("#owl-demo").owlCarousel({
+                loop: true,
+                margin: 20,
+                autoplay: true,
+                autoplayTimeout: 15000,
+
+                responsive: {
+                    0: {
+                        items: 1   // mobile
+
+                    },
+                    600: {
+                        items: 2   // tablets
+                    },
+                    1000: {
+                        items: 3   // desktops
+                    }
+                }
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
